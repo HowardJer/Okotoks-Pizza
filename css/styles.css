@@ -1,0 +1,44 @@
+/* set body stle */
+
+    body 
+    /*{
+      background-color: rgb(230, 184, 173);
+    } */
+    /* pizza background image*/
+
+    {
+       background-image: url("/E:/innotech/Projects/okotokspizza/images/pizza.jpg");
+       height: 100%;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+    }
+
+
+
+/* set heading style */
+
+    h1 {
+     color: rgb(0,0,0);
+    }
+
+    h2 {
+        color: rgb(0,0,0);
+
+        }
+
+    h3 {
+        color: rgb(0,0,0);
+    }
+/* set the background image */
+
+.img2 {
+    width: 500px;
+    height: 550px;
+    float:right;
+}
+
+.img3 {
+    width: 500px;
+    height: 500px;
+}
