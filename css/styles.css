@@ -42,3 +42,10 @@
     width: 500px;
     height: 500px;
 }
+
+section {
+
+    padding: 1rem;
+    background-color: white;
+
+}
