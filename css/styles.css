@@ -53,3 +53,22 @@ section {
     background-color: white;
 
 }
+
+
+div.descendent {
+
+    color: red;
+}
+ 
+ 
+div.child > div {
+
+    background-color: red;
+}
+    
+
+div.adjacent + div {
+
+    color: white;
+    background-color: darkblue;
+}
