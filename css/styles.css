@@ -72,3 +72,36 @@ div.adjacent + div {
     color: white;
     background-color: darkblue;
 }
+
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+
+a:visted {
+
+    color: purple;
+}
+
+/* hover */
+
+a:hover {
+
+    background-color: pink;
+    ;
+}
+
+
+/* active */
+a:active {
+
+    background-color: orange;
+}
+
+div.firstchild :first-child {
+
+    color: white;
+    background-color: green;
+}
