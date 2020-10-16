@@ -55,7 +55,7 @@ section {
 }
 
 
-div.descendent {
+div.descendent div{
 
     color: red;
 }
