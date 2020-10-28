@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 1fr 1fr 1fr 100px 30px;
+    grid-gap: 1rem;
+    min-height: 100vh;
+    
+}
+
+
+.header {
+    background-color: blue;
+   
+}
+
+.promotion {
+    background-color: green;
+   
+}
+
+.menu {
+    background-color: yellow;  
+   
+}
+
+.location {
+    background-color: aqua;
+   
+}
+
+
+
+.footer {
+    padding: 1rem;
+    background-color: grey;
+   
+}

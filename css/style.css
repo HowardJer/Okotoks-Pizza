@@ -1,45 +1,112 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  
 }
 
-
-
-.container {
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 100px 1fr 1fr 1fr 100px 30px;
-    grid-gap: 1rem;
-    min-height: 100vh;
-    
+header,
+main,
+footer {
+  padding: 0.5rem;
+  
 }
 
-
-.header {
-    background-color: blue;
-   
+header {
+  background-color: #ccc;
+  text-align: right;
 }
 
-.promotion {
-    background-color: green;
-   
+footer {
+  background-color: #999;
 }
 
-.menu {
-    background-color: yellow;  
-   
+.grid-container {
+  /* display: -ms-grid; */
+  display: grid;
+  /* -ms-grid-rows: 100px 1fr 1fr 1fr 1fr 1fr 30px; */
+      grid-template-rows: 60px 1fr 1fr 1fr 1fr 30px;
+  min-height: 100vh;
+  
 }
 
-.location {
-    background-color: aqua;
-   
+@media only screen and (max-width: 767px) {
+  .images {
+    max-width: 25%;
+    display: none;
+  }
 }
 
-
-
-.footer {
-    padding: 1rem;
-    background-color: grey;
-   
+/* @media only screen and (max-width: 990px) {
+    .grid-container {
+        display: none;
+    }
+} */
+/* tablet rules */
+@media only screen and (min-width: 768px) {
+  .images {
+    max-width: 10%;
+    float: left;
+    margin-right: 1rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  /* desktop rules */
 }
+
+@media only screen and (min-width: 768px) and (min-width: 991px) {
+  /* .grid-wrapper {
+        display: frid;
+        grid-template-columns: auto auto;   
+        grid-template-rows: 100px 1fr 1fr 30px;
+        grid-gap: 1rem;
+        min-height: 100vh;  
+        grid-template-areas: 
+        'header-pc header-pc'
+        'about-us location'
+        'video mission-statement'
+        'footer footer'
+        ;
+        } 
+
+        .grid-wrapper > div {
+            background-color: grey;
+            padding: 1rem;
+        }
+
+        .header-pc {
+            grid-area: header;
+        }
+        .location {
+            grid-area: location;
+        }
+
+        .video {
+            grid-area: video;
+        }
+        .mission-statement {
+            grid-area: mission-statement;
+
+        }
+        .about-us {
+            grid-area: about-us;
+        } */
+  /* {
+        grid-template-rows: 120px 1fr 1fr 1fr 1fr 1fr 30px;
+        grid-template-columns: ;
+    }*/
+  header button {
+    display: none;
+  }
+
+  .about-us p {
+
+    font-style: italic;
+    font-weight: bolder;
+  }
+
+
+}
+/*# sourceMappingURL=style.css.map */
