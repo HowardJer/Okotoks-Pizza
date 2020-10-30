@@ -31,6 +31,7 @@ body {
   border: 2px solid black;
   text-align: center;
   font-size: 30px;
+  font-family: sans-serif;
 }
 
 
@@ -50,13 +51,25 @@ body {
 .green {
   background-color: green;
   max-height: 146px;
-  
-  
-
 }
+.white {
+  background-color: white;
+  max-height: 146px;
+} 
+
+
 
 .red {
 
   background-color: red;
   max-height: 146px;
+}
+
+.mission >p {
+
+  font-weight: bolder;
+}
+
+span {
+  font-weight: em;
 }
