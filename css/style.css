@@ -44,18 +44,19 @@ body {
 }
 .logo {
   
-  height: 175px;
+  max-height: 175px;
   padding-top: 5px;
   
 }
 
 .green {
   background-color: green;
-  height: auto;
+  max-height: auto;
 }
 .white {
   background-color: white;
-  height: autox;
+  max-height: auto;
+  margin: auto;
 } 
 
 
@@ -63,7 +64,7 @@ body {
 .red {
 
   background-color: red;
-  height: auto;
+  max-height: auto;
 }
 
 .mission >p {
