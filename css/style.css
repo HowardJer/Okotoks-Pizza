@@ -14,7 +14,7 @@ body {
 .grid-container {
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 200px 1fr 1fr 1fr 30px;
+  grid-template-rows: 200px 1fr 1fr 200px 50px;
   grid-gap: 50px;
   padding: 10px;
   min-height: 100vh;
@@ -37,7 +37,7 @@ body {
 .header {
 
   display: grid;
-  grid-template-columns: 25% 50% 25%;
+  grid-template-columns: 35% 30% 35%;
   border: 10px solid black;
   padding-bottom: 0;
 
@@ -45,6 +45,7 @@ body {
 .logo {
   
   height: 175px;
+  padding-top: 5px;
   
 }
 
