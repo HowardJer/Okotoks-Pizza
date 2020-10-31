@@ -14,9 +14,8 @@ body {
 .grid-container {
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 150px 1fr 1fr 1fr 30px;
+  grid-template-rows: 200px 1fr 1fr 1fr 30px;
   grid-gap: 50px;
-  /* background-color: lightgray; */
   padding: 10px;
   min-height: 100vh;
   width: 100%;
@@ -28,7 +27,7 @@ body {
 
 .grid-container > div {
   background-color: rgba(255, 255, 255, 0.8);
-  border: 2px solid black;
+  /* border: 2px solid black; */
   text-align: center;
   font-size: 1.5rem;
   font-family: sans-serif;
@@ -40,21 +39,22 @@ body {
   display: grid;
   grid-template-columns: 25% 50% 25%;
   border: 10px solid black;
+  padding-bottom: 0;
 
 }
 .logo {
   
-  height: 146px;
+  height: 175px;
   
 }
 
 .green {
   background-color: green;
-  max-height: 146px;
+  height: auto;
 }
 .white {
   background-color: white;
-  max-height: 146px;
+  height: autox;
 } 
 
 
@@ -62,7 +62,7 @@ body {
 .red {
 
   background-color: red;
-  max-height: 146px;
+  height: auto;
 }
 
 .mission >p {
