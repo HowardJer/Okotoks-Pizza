@@ -69,12 +69,20 @@ body {
 .promotions {
   h3 {
     font-size: .75rem;
+    background-color: lightgreen;
   }
   p {
     font-size: .75rem;
   }
+  img {
+    width: 75px;
+    height: auto;
+  }
 }
 
+.specials {
+  background-color: lightgreen;
+}
 
 @media only screen and (min-width: 321px) {
   body {
