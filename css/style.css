@@ -6,9 +6,7 @@
 }
 
 body {
-  background-color: lightgrey;
-  background-image: url("../images/pizza.jpg");
-  background-size: cover;
+  background-color: grey;
 }
 
 .grid-container {
@@ -31,7 +29,7 @@ body {
   font-family: sans-serif;
 }
 
-.grid-container .header {
+.header {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 25% 50% 25%;
@@ -40,18 +38,18 @@ body {
   padding-bottom: 0;
 }
 
-.grid-container .header .logo {
+.header .logo {
   max-height: 40px;
   padding-top: 3px;
 }
 
-.grid-container .header .green {
+.header .green {
   background-color: green;
   max-height: auto;
   min-width: 60px;
 }
 
-.grid-container .header .white {
+.header .white {
   background-color: white;
   max-height: auto;
   min-width: 100px;
@@ -61,16 +59,32 @@ body {
   height: 60px;
 }
 
-.grid-container .header .red {
+.header .red {
   background-color: red;
   max-height: auto;
   min-width: 60px;
 }
 
-.grid-container .header h1 {
+.header h1 {
   margin-top: 5px;
   font-size: 1rem;
   margin-bottom: 0;
   padding-bottom: 0;
+}
+
+.promotions h3 {
+  font-size: .75rem;
+}
+
+.promotions p {
+  font-size: .75rem;
+}
+
+@media only screen and (min-width: 321px) {
+  body {
+    background-color: lightgrey;
+    background-image: url("../images/pizza.jpg");
+    background-size: cover;
+  }
 }
 /*# sourceMappingURL=style.css.map */

@@ -5,11 +5,13 @@
 }
 
 
+
 body {
-  background-color: lightgrey;
-  background-image: url("../images/pizza.jpg");
-  background-size: cover;
+  background-color: grey;
+  
+  
 }
+
 
 .grid-container {
   display: grid;
@@ -26,7 +28,7 @@ body {
   // font-size: 1.5rem;
   font-family: sans-serif;
   }
-
+}
 .header {
   display: grid;
   grid-template-columns: 25% 50% 25%;
@@ -64,7 +66,22 @@ body {
     }
 }
 
+.promotions {
+  h3 {
+    font-size: .75rem;
+  }
+  p {
+    font-size: .75rem;
+  }
+}
 
 
+@media only screen and (min-width: 321px) {
+  body {
+  background-color: lightgrey;
+  background-image: url("../images/pizza.jpg");
+  background-size: cover;
+}
+}
 
 
