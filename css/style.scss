@@ -68,21 +68,28 @@ body {
 
 .promotions {
   h3 {
-    font-size: .75rem;
+    font-size: .85rem;
     background-color: lightgreen;
+    text-align: center;
   }
   p {
     font-size: .75rem;
+    text-align: center;
   }
   img {
-    width: 75px;
+    width: 50px;
     height: auto;
+    
+  }
+  .specials {
+    background-color: lightgreen;
+  }
+  .packages {
+    background-color: lightgreen;
   }
 }
 
-.specials {
-  background-color: lightgreen;
-}
+
 
 @media only screen and (min-width: 321px) {
   body {

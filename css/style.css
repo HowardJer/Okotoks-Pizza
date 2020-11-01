@@ -73,20 +73,26 @@ body {
 }
 
 .promotions h3 {
-  font-size: .75rem;
+  font-size: .85rem;
   background-color: lightgreen;
+  text-align: center;
 }
 
 .promotions p {
   font-size: .75rem;
+  text-align: center;
 }
 
 .promotions img {
-  width: 75px;
+  width: 50px;
   height: auto;
 }
 
-.specials {
+.promotions .specials {
+  background-color: lightgreen;
+}
+
+.promotions .packages {
   background-color: lightgreen;
 }
 
