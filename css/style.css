@@ -63,6 +63,7 @@ body {
   background-color: red;
   max-height: auto;
   min-width: 60px;
+  font-size: .75rem;
 }
 
 .header h1 {
