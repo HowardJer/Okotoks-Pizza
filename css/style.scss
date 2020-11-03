@@ -77,25 +77,34 @@ body {
   padding: 10;
   box-shadow: 3px 5px black;
    margin-top: 7px;
+
+.lside {
+  .icons {
+    width: 40px;
+    padding-top: 13px;
+  }
+}
+
   .center {
-    background-color: #FFCCCB;
+    background-color: red;
     max-height: 57px;
     padding: 15px;
+    color: white;
     p {
       font-size: .75rem;
       font-weight: bolder;
       .blink {
-        font-size: 4rem;
+        font-size: .75rem;
       }
     }
-    .blink {
-      animation: blinker 2s linear infinite;
-      }
-    @keyframes blinker {
-      50% {
-        opacity: 0;
-      }
-    }
+    // .blink {
+    //   animation: blinker 2s linear infinite;
+    //   }
+    // @keyframes blinker {
+    //   50% {
+    //     opacity: 0;
+    //   }
+    // }
   }
   
   
@@ -127,6 +136,14 @@ body {
   .packages {
     background-color: lightgreen;
   }
+}
+
+footer {
+  border: 3px solid black;
+  background-color: red;
+  color: white;
+  text-align: center;
+  font-size: .75rem;
 }
 
 
