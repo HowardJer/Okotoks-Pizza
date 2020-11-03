@@ -17,7 +17,7 @@ body {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: 100px 70px 1fr 50px;
-  grid-gap: 10px;
+  grid-gap: 30px;
   padding: 10px;
   min-height: 100vh;
   width: 100%;
@@ -84,9 +84,8 @@ body {
    .icons {
     width: 40px;
     padding-top: 13px;
-    background-color: white;
-    
-  }
+   }
+  background-color: white;
 }
 
   .center {
