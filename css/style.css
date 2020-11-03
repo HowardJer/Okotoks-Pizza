@@ -85,24 +85,24 @@ body {
   margin-top: 7px;
 }
 
-.delivery .lside .icons {
+.delivery .icons {
   width: 40px;
   padding-top: 13px;
 }
 
-.delivery .center {
+.center {
   background-color: red;
   max-height: 57px;
   padding: 15px;
   color: white;
 }
 
-.delivery .center p {
+.center p {
   font-size: .75rem;
   font-weight: bolder;
 }
 
-.delivery .center p .blink {
+.center p .blink {
   font-size: .75rem;
 }
 
