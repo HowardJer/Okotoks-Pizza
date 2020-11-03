@@ -22,18 +22,22 @@ body {
   min-height: 100vh;
   width: 100%;
   > div {
-    background-color: rgba(255, 255, 255, 1);
+    // background-color: lightgreen;
   /* border: 2px solid black; */
   text-align: center;
   // font-size: 1.5rem;
   font-family: sans-serif;
   }
 }
+
+
+
 .header {
   display: grid;
   grid-template-columns: 25% 50% 25%;
   border: 3px solid red;
   padding-bottom: 0;
+  background-color: white;
   
   
   .logo {
@@ -80,13 +84,9 @@ body {
    .icons {
     width: 40px;
     padding-top: 13px;
+    background-color: white;
+    
   }
-
-// .lside {
-//   .icons {
-//     width: 40px;
-//     padding-top: 13px;
-//   }
 }
 
   .center {
@@ -101,14 +101,14 @@ body {
         font-size: .75rem;
       }
     }
-    // .blink {
-    //   animation: blinker 2s linear infinite;
-    //   }
-    // @keyframes blinker {
-    //   50% {
-    //     opacity: 0;
-    //   }
-    // }
+    .blink {
+      animation: blinker 2s linear infinite;
+      }
+    @keyframes blinker {
+      50% {
+        opacity: 0;
+      }
+    }
   }
   
   
@@ -118,6 +118,7 @@ body {
 .promotions {
   border: 3px solid black;
   box-shadow: 3px 5px black;
+  background-color: lightgreen;
 
   h3 {
     font-size: .85rem;
@@ -158,6 +159,12 @@ footer {
   background-image: url("../images/pizza.jpg");
   background-size: cover;
 }
-}
+
+
+
+
+} // ends ipad settings
+
+
 
 
