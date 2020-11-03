@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: grey;
+  background-color: lightgrey;
 }
 
 .grid-container {
@@ -14,8 +14,8 @@ body {
   display: grid;
   -ms-grid-columns: auto;
       grid-template-columns: auto;
-  -ms-grid-rows: 100px 1fr 1fr 50px;
-      grid-template-rows: 100px 1fr 1fr 50px;
+  -ms-grid-rows: 100px 70px 1fr 50px;
+      grid-template-rows: 100px 70px 1fr 50px;
   grid-gap: 10px;
   padding: 10px;
   min-height: 100vh;
@@ -34,7 +34,7 @@ body {
   display: grid;
   -ms-grid-columns: 25% 50% 25%;
       grid-template-columns: 25% 50% 25%;
-  border: 5px solid red;
+  border: 3px solid red;
   padding-bottom: 0;
 }
 
@@ -73,10 +73,61 @@ body {
   padding-bottom: 0;
 }
 
+.delivery {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 15% 1fr 15%;
+      grid-template-columns: 15% 1fr 15%;
+  border: 3px solid black;
+  padding: 10;
+  -webkit-box-shadow: 3px 5px black;
+          box-shadow: 3px 5px black;
+  margin-top: 7px;
+}
+
+.delivery .center {
+  background-color: #FFCCCB;
+  max-height: 57px;
+  padding: 15px;
+}
+
+.delivery .center p {
+  font-size: .75rem;
+  font-weight: bolder;
+}
+
+.delivery .center p .blink {
+  font-size: 4rem;
+}
+
+.delivery .center .blink {
+  -webkit-animation: blinker 2s linear infinite;
+          animation: blinker 2s linear infinite;
+}
+
+@-webkit-keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.promotions {
+  border: 3px solid black;
+  -webkit-box-shadow: 3px 5px black;
+          box-shadow: 3px 5px black;
+}
+
 .promotions h3 {
   font-size: .85rem;
-  background-color: lightgreen;
+  background-color: darkgreen;
   text-align: center;
+  color: white;
 }
 
 .promotions p {
