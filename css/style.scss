@@ -17,16 +17,13 @@ body {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: 100px 70px 1fr 50px;
-  grid-gap: 30px;
+  grid-gap: 10px;
   padding: 10px;
   min-height: 100vh;
   width: 100%;
   > div {
-    // background-color: lightgreen;
-  /* border: 2px solid black; */
-  text-align: center;
-  // font-size: 1.5rem;
-  font-family: sans-serif;
+   text-align: center;
+   font-family: sans-serif;
   }
 }
 
@@ -150,16 +147,47 @@ footer {
   font-size: .75rem;
 }
 
-
+// ADAPTING FOR TABLET
 
 @media only screen and (min-width: 321px) {
+  
+  // overall look
   body {
   background-color: lightgrey;
-  background-image: url("../images/pizza.jpg");
+  background-image: url("../images/pepperonipizza.jpg");
   background-size: cover;
 }
 
+// overall grid container
+.grid-container {
+  grid-gap: 50px;
+  grid-template-rows: 120px 80px 1fr 60px;
+}
 
+// Header
+.header {
+  border: 8px solid red;
+  h1 {
+    font-size: 1.6rem;
+    margin-top: 2px;
+  }
+    .logo {
+      max-height: 70px;
+      padding: 0;
+    }
+
+
+
+  
+    
+  }
+
+
+// Delivery
+  .center {
+    max-height: 67px;
+
+}
 
 
 } // ends ipad settings
