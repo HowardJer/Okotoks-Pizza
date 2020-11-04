@@ -80,7 +80,6 @@ body {
   display: grid;
   grid-template-columns: 15% 1fr 15%;
   border: 3px solid black;
-  padding: 10;
   box-shadow: 3px 5px black;
    margin-top: 7px;
    .icons {
@@ -98,7 +97,7 @@ body {
       font-size: 1.5rem;
       font-weight: bolder;
       .blink {
-        font-size: .75rem;
+        font-size: 1.5rem;
       }
     }
     .blink {
@@ -206,8 +205,10 @@ footer {
 // Delivery
   .center {
     max-height: 67px;
-
-}
+    p {
+      font-size: 1.75rem;
+    }
+  }
 
 
 

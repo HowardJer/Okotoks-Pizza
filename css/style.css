@@ -84,7 +84,6 @@ body {
   -ms-grid-columns: 15% 1fr 15%;
       grid-template-columns: 15% 1fr 15%;
   border: 3px solid black;
-  padding: 10;
   -webkit-box-shadow: 3px 5px black;
           box-shadow: 3px 5px black;
   margin-top: 7px;
@@ -108,7 +107,7 @@ body {
 }
 
 .center p .blink {
-  font-size: .75rem;
+  font-size: 1.5rem;
 }
 
 .center .blink {
@@ -208,6 +207,9 @@ footer #underlines {
   }
   .center {
     max-height: 67px;
+  }
+  .center p {
+    font-size: 1.75rem;
   }
   .promotions {
     margin-left: 150px;
