@@ -37,19 +37,9 @@ body {
   background-color: white;
 }
 
-.header .logo {
-  max-height: 40px;
-  padding-top: 3px;
-}
-
 .header .logo-green {
-  max-height: 99px;
-}
-
-@media only screen and (max-width: 991px) {
-  .header .logo-green {
-    display: none;
-  }
+  max-width: 67px;
+  padding-top: 15px;
 }
 
 .green {
@@ -69,10 +59,15 @@ body {
 }
 
 .white h1 {
-  margin-top: 5px;
+  margin-top: 10px;
   font-size: .75rem;
   margin-bottom: 0;
   padding-bottom: 0;
+}
+
+.white p {
+  font-size: 1rem;
+  font-family: "Pacifico";
 }
 
 .red {
