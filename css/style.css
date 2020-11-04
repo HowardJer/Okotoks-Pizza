@@ -193,10 +193,16 @@ footer #underlines {
   .header h1 {
     font-size: 1.6rem;
     margin-top: 2px;
+    padding-bottom: 0px;
   }
-  .header .logo {
-    max-height: 70px;
-    padding: 0;
+  .header .logo-green {
+    max-width: 112px;
+    padding-top: 8px;
+  }
+  .header .white p {
+    font-size: 2rem;
+    font-family: "Pacifico";
+    padding-top: 5px;
   }
   .header .red {
     max-height: auto;
@@ -244,6 +250,14 @@ footer #underlines {
 }
 
 @media only screen and (min-width: 992px) {
+  .header .logo-green {
+    max-width: 113px;
+    padding-top: 5px;
+  }
+  .header h1 {
+    font-size: 2.5rem;
+    margin-top: 2px;
+  }
   .delivery .icons {
     width: 70px;
     padding-top: 7px;
