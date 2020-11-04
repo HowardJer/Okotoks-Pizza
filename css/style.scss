@@ -159,7 +159,7 @@ footer {
 }
 
 
-// ADAPTING FOR TABLET
+// ADAPTING FOR TABLET --------------------------------------------------------------------
 
 @media only screen and (min-width: 321px) {
   
@@ -187,6 +187,18 @@ footer {
       max-height: 70px;
       padding: 0;
     }
+    .red {
+
+ 
+      max-height: auto;
+  
+      font-size: 1.25rem;
+      #underlines {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+      }
+      }
 
   }
 

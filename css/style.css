@@ -197,6 +197,15 @@ footer #underlines {
     max-height: 70px;
     padding: 0;
   }
+  .header .red {
+    max-height: auto;
+    font-size: 1.25rem;
+  }
+  .header .red #underlines {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
   .center {
     max-height: 67px;
   }
