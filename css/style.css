@@ -68,6 +68,7 @@ body {
 .header .red #underlines {
   text-decoration: none;
   color: white;
+  font-weight: bold;
 }
 
 .header h1 {
