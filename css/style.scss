@@ -138,9 +138,7 @@ body {
   .specials {
     background-color: lightgreen;
   }
-  .packages {
-    background-color: lightgreen;
-  }
+  
 }
 
 footer {
@@ -213,9 +211,37 @@ footer {
 
 
 .promotions {
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 200px;
+  margin-right: 200px;
 }
+
+.promotions {
+  
+  h3 {
+    font-size: 1.25rem;
+    background-color: darkgreen;
+    text-align: center;
+    color: white;
+  }
+  p {
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  img {
+    width: 70px;
+    height: auto;
+    
+  }
+  
+}
+
+footer {
+  border: 5px solid black;
+  font-size: 1.25rem;
+  font-weight: bold;
+  }
+
 
 } // ends ipad settings
 
