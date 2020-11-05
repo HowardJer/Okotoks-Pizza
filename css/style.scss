@@ -116,7 +116,7 @@ body {
     max-height: 57px;
     color: white;
 
-    p {
+    pre {
       font-size: 1.5rem;
       font-weight: bolder;
       .blink {
@@ -172,13 +172,16 @@ footer {
   background-color: red;
   color: white;
   text-align: center;
-  font-size: 1rem;
+  pre {
+    font-size: 1rem;
   font-weight: bold;
   font-family: sans-serif;
+  }
  
   #underlines {
     text-decoration: none;
     color: white;
+    
   }
 }
 
@@ -261,8 +264,8 @@ footer {
    }
    .center {
       max-height: 67px;
-      p {
-        font-size: 1.75rem;
+      pre {
+        font-size: 2rem;
       }
     }
   }

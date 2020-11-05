@@ -122,12 +122,12 @@ body {
   color: white;
 }
 
-.delivery .center p {
+.delivery .center pre {
   font-size: 1.5rem;
   font-weight: bolder;
 }
 
-.delivery .center p .blink {
+.delivery .center pre .blink {
   font-size: 1.5rem;
 }
 
@@ -186,6 +186,9 @@ footer {
   background-color: red;
   color: white;
   text-align: center;
+}
+
+footer pre {
   font-size: 1rem;
   font-weight: bold;
   font-family: sans-serif;
@@ -250,8 +253,8 @@ footer #underlines {
   .delivery .center {
     max-height: 67px;
   }
-  .delivery .center p {
-    font-size: 1.75rem;
+  .delivery .center pre {
+    font-size: 2rem;
   }
   .promotions {
     margin-left: 200px;
