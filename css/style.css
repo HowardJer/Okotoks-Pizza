@@ -44,8 +44,8 @@ body {
 }
 
 .header .green .logo-green {
-  max-height: 80px;
-  padding-top: 25px;
+  max-height: 70px;
+  padding-top: 15px;
 }
 
 .header .white {
@@ -198,8 +198,8 @@ footer #underlines {
     max-height: 104px;
   }
   .header .green .logo-green {
-    max-height: 99px;
-    padding-top: 5px;
+    max-height: 125px;
+    padding-top: 0px;
   }
   .header .white h1 {
     font-size: 1.75rem;
@@ -257,13 +257,15 @@ footer #underlines {
 }
 
 @media only screen and (min-width: 992px) {
-  .header .logo-green {
-    max-width: 113px;
-    padding-top: 5px;
+  .header .green .logo-green {
+    max-height: 135px;
   }
-  .header h1 {
+  .header .white h1 {
     font-size: 2.5rem;
     margin-top: 2px;
+  }
+  .header .red {
+    font-size: 2.5rem;
   }
   .delivery .icons {
     width: 70px;
