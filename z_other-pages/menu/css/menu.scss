@@ -35,8 +35,16 @@ body {
 /* Left and right column */
 .column.side {
   flex: 1;
-   }
+}
+
+.row {
+  >div {
+    background-color: blue;
+  }
   
+
+  
+}
 
 /* Style the footer */
 .footer {

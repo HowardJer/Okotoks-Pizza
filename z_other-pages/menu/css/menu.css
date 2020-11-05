@@ -36,6 +36,10 @@ body {
           flex: 1;
 }
 
+.row > div {
+  background-color: blue;
+}
+
 /* Style the footer */
 .footer {
   background-color: #f1f1f1;
