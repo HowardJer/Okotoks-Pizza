@@ -78,7 +78,6 @@ body {
 }
 
 .header .red #underlines {
-  text-decoration: none;
   color: white;
   font-weight: bold;
 }
@@ -89,7 +88,13 @@ body {
 }
 
 @media only screen and (max-width: 991px) {
-  .header .red .home-page-menu {
+  .header .red .menu-bar {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .header .red > div .reg-phone {
     display: none;
   }
 }
@@ -228,6 +233,13 @@ footer #underlines {
   }
   .header .red #underlines {
     text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  .header .red > div .mobile-phone {
+    display: none;
+  }
+  .header .red > div .reg-phone {
     color: white;
     font-weight: bold;
   }

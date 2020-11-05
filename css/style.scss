@@ -73,7 +73,7 @@ body {
       min-width: 60px;
       font-size: .75rem;
       #underlines {
-        text-decoration: none;
+        // text-decoration: none;
         color: white;
         font-weight: bold;
       }
@@ -82,9 +82,17 @@ body {
         color: white;
       } 
       @media only screen and (max-width: 991px) {
-      .home-page-menu {
+      .menu-bar {
         display: none;
       }
+    }
+
+      @media only screen and (max-width: 767px) {
+      > div {
+        .reg-phone {
+        display: none;
+      }
+    }
     }
   }
 }
@@ -217,10 +225,10 @@ footer {
       font-size: 2rem;
       font-family: "Pacifico";
       padding-top: 5px;
-       }
+    }
   }
 
-    .red {
+  .red {
       max-height: 109.5px;
       font-size: 1.25rem;
       #underlines {
@@ -228,8 +236,21 @@ footer {
         color: white;
         font-weight: bold;
       }
-      }
+      > div {
+        .mobile-phone {
+          display: none;
+        }
+        .reg-phone {
+        color: white;
+        font-weight: bold;
+        }
+
+      } 
+
+      
+
   }
+}
 
 // Delivery
 
