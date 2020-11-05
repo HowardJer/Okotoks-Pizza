@@ -83,6 +83,11 @@ body {
   font-weight: bold;
 }
 
+.header .red i {
+  padding-top: 30px;
+  color: white;
+}
+
 .delivery {
   display: -ms-grid;
   display: grid;
@@ -266,6 +271,9 @@ footer #underlines {
   }
   .header .red {
     font-size: 2.5rem;
+  }
+  .header .red i {
+    display: none;
   }
   .delivery .icons {
     width: 70px;

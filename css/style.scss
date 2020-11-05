@@ -77,6 +77,11 @@ body {
         color: white;
         font-weight: bold;
       }
+      i {
+        padding-top: 30px;
+        color: white;
+      } 
+      
     
    }
 }
@@ -294,9 +299,9 @@ footer {
 
   .red {
     font-size: 2.5rem;
-    // i{
-    //   display: none;
-    // }
+    i{
+      display: none;
+    }
     
     
   }
