@@ -32,7 +32,7 @@ body {
 .header {
   display: grid;
   grid-template-columns: 25% 50% 25%;
-  border: 3px solid red;
+  border: 3px solid black;
   padding-bottom: 0;
   background-color: white;
     
@@ -81,9 +81,12 @@ body {
         padding-top: 30px;
         color: white;
       } 
-      
-    
-   }
+      @media only screen and (max-width: 991px) {
+      .home-page-menu {
+        display: none;
+      }
+    }
+  }
 }
 
 // set up delivery/social media row 
@@ -192,14 +195,15 @@ footer {
 
 // Header
 .header {
-  border: 8px solid red;
+  border: 5px solid black;
   
   .green {
     .logo-green {
-    max-height: 125px;
+    max-height: 135px;
     padding-top: 0px;
     }
-    max-height: 104px;
+    max-height: 109.5px;
+    
   }
   
   .white {
@@ -217,7 +221,7 @@ footer {
   }
 
     .red {
-      max-height: 104px;
+      max-height: 109.5px;
       font-size: 1.25rem;
       #underlines {
         text-decoration: none;
@@ -306,7 +310,12 @@ footer {
       display: inline;
       font-size: 1.5rem;
       color: white;
+      &:hover {
+        background-color: white;
+        color: red;
+      }
      }
+
     
     
   }

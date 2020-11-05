@@ -32,7 +32,7 @@ body {
   display: grid;
   -ms-grid-columns: 25% 50% 25%;
       grid-template-columns: 25% 50% 25%;
-  border: 3px solid red;
+  border: 3px solid black;
   padding-bottom: 0;
   background-color: white;
 }
@@ -86,6 +86,12 @@ body {
 .header .red i {
   padding-top: 30px;
   color: white;
+}
+
+@media only screen and (max-width: 991px) {
+  .header .red .home-page-menu {
+    display: none;
+  }
 }
 
 .delivery {
@@ -197,13 +203,13 @@ footer #underlines {
         grid-template-rows: 120px 80px 1fr 60px;
   }
   .header {
-    border: 8px solid red;
+    border: 5px solid black;
   }
   .header .green {
-    max-height: 104px;
+    max-height: 109.5px;
   }
   .header .green .logo-green {
-    max-height: 125px;
+    max-height: 135px;
     padding-top: 0px;
   }
   .header .white h1 {
@@ -217,7 +223,7 @@ footer #underlines {
     padding-top: 5px;
   }
   .header .red {
-    max-height: 104px;
+    max-height: 109.5px;
     font-size: 1.25rem;
   }
   .header .red #underlines {
@@ -279,6 +285,10 @@ footer #underlines {
     display: inline;
     font-size: 1.5rem;
     color: white;
+  }
+  .header .red li:hover {
+    background-color: white;
+    color: red;
   }
   .delivery .icons {
     width: 70px;
