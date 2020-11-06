@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: grey;
+  background-color: lightgrey;
   font-family: sans-serif;
 }
 
@@ -17,19 +17,103 @@ body {
       grid-template-columns: auto;
   -ms-grid-rows: 100px 1fr 60px;
       grid-template-rows: 100px 1fr 60px;
-  grid-gap: 10px;
+  grid-gap: 0px;
   padding: 10px;
   min-height: 100vh;
   width: 100%;
 }
 
+.header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 25% 50% 25%;
+      grid-template-columns: 25% 50% 25%;
+  border: 3px solid black;
+  padding-bottom: 0;
+  background-color: white;
+}
+
+.header .green {
+  background-color: green;
+  max-height: auto;
+  min-width: 60px;
+}
+
+.header .green .logo-green {
+  max-height: 67px;
+  padding: 5px 10px 5px 1px;
+}
+
+.header .white {
+  background-color: white;
+  max-height: auto;
+  min-width: 100px;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  height: 60px;
+}
+
+.header .white h1 {
+  margin-top: 10px;
+  font-size: 0.8rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.header .white p {
+  font-size: 0.95rem;
+  font-family: "Pacifico";
+}
+
+.header .red {
+  background-color: #cd0101;
+  max-height: auto;
+  min-width: 60px;
+  font-size: 0.5rem;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.header .red #underlines {
+  color: white;
+  font-weight: bold;
+}
+
+.header .red i {
+  padding-top: 30px;
+  color: white;
+}
+
+@media only screen and (max-width: 991px) {
+  .header .red .menu-bar {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .header .red > div .reg-phone {
+    display: none;
+  }
+}
+
 .main-grid {
   border: 5px solid black;
   background-color: lightgreen;
+  -webkit-box-shadow: 3px 5px black;
+          box-shadow: 3px 5px black;
 }
 
 .main h1 {
   text-align: center;
+  background-color: #cd0101;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  padding: 10px;
+  border: 5px solid black;
+  -webkit-box-shadow: 3px 5px black;
+          box-shadow: 3px 5px black;
+  color: white;
 }
 
 .main .left {
@@ -41,7 +125,7 @@ body {
 .main .left h4 {
   text-align: center;
   margin-top: 10px;
-  font-size: .75rem;
+  font-size: 0.75rem;
   margin-left: 2px;
   margin-right: 2px;
   text-decoration: underline;
@@ -53,12 +137,13 @@ body {
   padding: 0;
 }
 
-.main pre, .main p {
+.main pre,
+.main p {
   font-family: sans-serif;
   text-align: center;
   margin-top: 10px;
   font-weight: bold;
-  font-size: .75rem;
+  font-size: 0.75rem;
 }
 
 .main img {
