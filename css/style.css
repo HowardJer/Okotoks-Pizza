@@ -157,10 +157,14 @@ body {
 
 .promotions .daily-special {
   display: inline;
-  width: 100%;
+  width: 67%;
   height: auto;
+  margin-top: 10px;
   margin-bottom: 3px;
-  border: 3px solid pink;
+  margin-left: -25px;
+  border: 4px solid black;
+  -webkit-box-shadow: 9px 13px black;
+          box-shadow: 9px 13px black;
 }
 
 .promotions .specials {
