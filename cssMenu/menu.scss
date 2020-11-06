@@ -1,0 +1,89 @@
+// set up zero points
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  // set up body & test connection to index.html
+
+body {
+    background-color: grey;
+    font-family: sans-serif;
+   
+  }
+ 
+ // set up the grid container
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 100px 1fr 60px;
+    grid-gap: 10px;
+    padding: 10px;
+    min-height: 100vh;
+    width: 100%;
+   
+   
+}
+
+// set up for mobile  +++++++++++++++++++++++++++++++++
+
+.main-grid {
+    border: 5px solid black;
+    background-color: lightgreen
+}
+    
+
+
+
+.main {
+    h1 {
+        text-align: center;
+    }
+
+    // .main-grid {
+    //     display: grid;
+    //     grid-template-columns: 50% 50%;
+    //     grid-gap: 3px;
+    //     padding: 10px;
+    //     min-height: 100vh;
+    //     width: 100%;
+    .left {
+        
+       margin: 0;
+       padding: 0;
+
+        h4 {
+            text-align: center;
+            margin-top: 10px;
+            font-size: .75rem;
+            margin-left: 2px;
+            margin-right: 2px;
+            text-decoration: underline;
+        }
+          background-color: lightgreen;
+    }
+
+    .right {
+        background-color: lightgreen;
+        margin: 0;  
+        padding: 0;
+    }
+
+
+    pre, p  {
+        font-family: sans-serif;
+        text-align: center;
+        margin-top: 10px;
+        font-weight: bold;
+        font-size: .75rem;
+        
+    }
+    img {
+        height: 60px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+        // width: 50px;
+    }
+}
