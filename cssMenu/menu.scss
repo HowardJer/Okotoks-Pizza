@@ -32,7 +32,6 @@ body {
     border: 3px solid black;
     padding-bottom: 0;
     background-color: white;
-  
     .green {
         .logo-green {
             max-height: 67px;
@@ -95,25 +94,24 @@ body {
     }
 }
 
-
 // set up main part of page
-.main-grid {
-    border: 5px solid black;
-    background-color: lightgreen;
-    box-shadow: 3px 5px black;
-}
 
 .main {
     h1 {
         text-align: center;
-        background-color: rgb(205,1,1);
-        margin-bottom: 10px;
-        margin-top: 0px;
+        background-color: rgb(205, 1, 1);
+        margin-top: 10px;
         padding: 10px;
         border: 5px solid black;
         box-shadow: 3px 5px black;
         color: white;
-        }
+    }
+    .main-grid {
+        border: 5px solid black;
+        background-color: lightgreen;
+        box-shadow: 3px 5px black;
+        margin-top: 10px;
+    }
 
     // .main-grid {
     //     display: grid;
@@ -160,20 +158,25 @@ body {
     }
 }
 
-// set up footer
+//  set up footer
+
 footer {
-    border: 3px solid black;
-    background-color: rgb(205,1,1);
-    color: white;
     text-align: center;
-    pre {
-      font-size: 1rem;
-    font-weight: bold;
-    font-family: sans-serif;
-    }
-   
-    #underlines {
-      text-decoration: none;
-      color: white;
-    }
-  }
+}
+
+// footer {
+//     border: 3px solid black;
+//     background-color: rgb(205, 1, 1);
+//     color: white;
+//     text-align: center;
+//     pre {
+//         font-size: 1rem;
+//         font-weight: bold;
+//         font-family: sans-serif;
+//     }
+
+//     #underlines {
+//         text-decoration: none;
+//         color: white;
+//     }
+// }
