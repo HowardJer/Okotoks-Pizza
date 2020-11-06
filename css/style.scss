@@ -115,13 +115,14 @@ body {
     background-color: rgb(205,1,1);
     max-height: 57px;
     color: white;
+    .blink {
+      font-size: 1.75rem;
+    }
 
     pre {
-      font-size: 1.5rem;
+      font-size: .75rem;
       font-weight: bolder;
-      .blink {
-        font-size: 1.5rem;
-      }
+     
     }
 
     .blink {

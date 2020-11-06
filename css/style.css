@@ -122,13 +122,13 @@ body {
   color: white;
 }
 
-.delivery .center pre {
-  font-size: 1.5rem;
-  font-weight: bolder;
+.delivery .center .blink {
+  font-size: 1.75rem;
 }
 
-.delivery .center pre .blink {
-  font-size: 1.5rem;
+.delivery .center pre {
+  font-size: .75rem;
+  font-weight: bolder;
 }
 
 .delivery .center .blink {
