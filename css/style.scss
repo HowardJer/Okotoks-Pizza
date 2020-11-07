@@ -71,7 +71,7 @@ body {
     max-height: auto;
     min-width: 60px;
     font-size: 1rem;
-    #underlines {
+    #underlines-phone {
       color: white;
       font-weight: bold;
     }
@@ -161,7 +161,7 @@ body {
 
   .daily-special {
     display: inline;
-    width: 50%;
+    width: 90%;
     height: auto;
     margin-top: 10px;
     margin-bottom: 3px;
@@ -176,12 +176,15 @@ body {
 
     div.relative1 {
       position: relative;
-      width: 60%;
+      // width: 60%;
       max-height: 100px;
-      .wings {
-        font-size: .75rem;
-        text-align: left;
-      }
+      // p .wings {
+      //   font-size: rem;
+      //   text-align: left;
+      //   > p {
+      //     text-align: center;
+      //   }
+      // }
      
     }
 
@@ -191,9 +194,11 @@ body {
 
     .wings-float {
       float: left;
-      margin: 0 35px 10px 5px;
+      margin: 0 60px 10px 5px;
       width: 35%;
       height: auto;
+      margin-right: 60px;
+
       
     }
 
@@ -204,12 +209,14 @@ body {
       margin-bottom: 3px;
       border: 3px solid rgb(205, 1, 1);
       margin-top: 5px;
-      margin-right: 10px;
+
+     
+
     }
 
     p,
     pre {
-      font-size: .75rem;
+      font-size: 1.5rem;
       font-weight: bold;
       text-align: center;
       color: white;
@@ -227,6 +234,7 @@ body {
       background-color: lightgrey;
       border: 0;
     }
+
   }
 }
 
@@ -241,13 +249,12 @@ footer {
     font-weight: bold;
     font-family: sans-serif;
   }
-
-  #underlines {
-    text-decoration: none;
-    color: white;
-  }
 }
 
+#underlines-footer {
+  text-decoration: none;
+  color: white;
+}
 // ends mobile settings --------------------------------------------------------------
 
 // // ADAPTING FOR TABLET ================================================================

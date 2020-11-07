@@ -77,7 +77,7 @@ body {
   font-size: 1rem;
 }
 
-.header .red #underlines {
+.header .red #underlines-phone {
   color: white;
   font-weight: bold;
 }
@@ -175,7 +175,7 @@ body {
 
 .promotions .daily-special {
   display: inline;
-  width: 50%;
+  width: 90%;
   height: auto;
   margin-top: 10px;
   margin-bottom: 3px;
@@ -192,13 +192,7 @@ body {
 
 .promotions .specials div.relative1 {
   position: relative;
-  width: 60%;
   max-height: 100px;
-}
-
-.promotions .specials div.relative1 .wings {
-  font-size: .75rem;
-  text-align: left;
 }
 
 .promotions .specials div.absolute1 {
@@ -207,9 +201,10 @@ body {
 
 .promotions .specials .wings-float {
   float: left;
-  margin: 0 35px 10px 5px;
+  margin: 0 60px 10px 5px;
   width: 35%;
   height: auto;
+  margin-right: 60px;
 }
 
 .promotions .specials img {
@@ -219,12 +214,11 @@ body {
   margin-bottom: 3px;
   border: 3px solid #cd0101;
   margin-top: 5px;
-  margin-right: 10px;
 }
 
 .promotions .specials p,
 .promotions .specials pre {
-  font-size: .75rem;
+  font-size: 1.5rem;
   font-weight: bold;
   text-align: center;
   color: white;
@@ -257,7 +251,7 @@ footer pre {
   font-family: sans-serif;
 }
 
-footer #underlines {
+#underlines-footer {
   text-decoration: none;
   color: white;
 }
