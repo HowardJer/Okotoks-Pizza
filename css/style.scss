@@ -15,7 +15,7 @@ body {
 .grid-container {
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 100px 70px 1fr 60px;
+  grid-template-rows: 100px 70px 80px 1fr 60px;
   grid-gap: 10px;
   padding: 10px;
   min-height: 100vh;
@@ -38,7 +38,7 @@ body {
 
   .green {
     .logo-green {
-      max-height: 90px;
+      max-height: 80px;
       padding-top: 10px;
     }
     background-color: green;
@@ -114,10 +114,10 @@ body {
     max-height: 57px;
     color: white;
     .eat-in {
-      font-size: 1.25rem;
+      font-size: .75rem;
     }
     .blink {
-      font-size: 1.75rem;
+      font-size: 1.25rem;
     }
   }
 
@@ -140,7 +140,7 @@ body {
 
   .daily-special {
     display: inline;
-    width: 67%;
+    width: 50%;
     height: auto;
     margin-top: 10px;
     margin-bottom: 3px;
@@ -155,10 +155,10 @@ body {
 
     div.relative1 {
       position: relative;
-      width: 100%;
-      max-height: 200px;
+      width: 60%;
+      max-height: 100px;
       .wings {
-        font-size: 1.5rem;
+        font-size: .75rem;
         text-align: left;
       }
     }
@@ -176,7 +176,7 @@ body {
 
     img {
       display: inline;
-      width: 50%;
+      width: 35%;
       height: auto;
       margin-bottom: 3px;
       border: 3px solid rgb(205, 1, 1);
@@ -186,14 +186,14 @@ body {
 
     p,
     pre {
-      font-size: 2rem;
+      font-size: .75rem;
       font-weight: bold;
       text-align: center;
       color: white;
     }
 
     .day {
-      font-size: 1.5rem;
+      font-size: 1rem;
       text-decoration: underline;
     }
     hr {
@@ -227,191 +227,191 @@ footer {
 
 // ends mobile settings --------------------------------------------------------------
 
-// ADAPTING FOR TABLET ================================================================
+// // ADAPTING FOR TABLET ================================================================
 
-@media only screen and (min-width: 321px) {
-  // overall look
-  body {
-    background-color: lightgrey;
-    background-image: url("../images/pepperonipizza.jpg");
-    background-size: cover;
-  }
+// @media only screen and (min-width: 321px) {
+//   // overall look
+//   body {
+//     background-color: lightgrey;
+//     background-image: url("../images/pepperonipizza.jpg");
+//     background-size: cover;
+//   }
 
-  // overall grid container
-  .grid-container {
-    grid-gap: 50px;
-    grid-template-rows: 120px 80px 1fr 60px;
-  }
+//   // overall grid container
+//   .grid-container {
+//     grid-gap: 50px;
+//     grid-template-rows: 120px 80px 1fr 60px;
+//   }
 
-  // Header
-  .header {
-    border: 5px solid black;
+//   // Header
+//   .header {
+//     border: 5px solid black;
 
-    .green {
-      .logo-green {
-        max-height: 135px;
-        padding-top: 0px;
-      }
-      max-height: 109.5px;
-    }
+//     .green {
+//       .logo-green {
+//         max-height: 135px;
+//         padding-top: 0px;
+//       }
+//       max-height: 109.5px;
+//     }
 
-    .white {
-      h1 {
-        font-size: 1.75rem;
-        margin-top: 2px;
-        padding-bottom: 0px;
-      }
+//     .white {
+//       h1 {
+//         font-size: 1.75rem;
+//         margin-top: 2px;
+//         padding-bottom: 0px;
+//       }
 
-      p {
-        font-size: 2rem;
-        font-family: "Pacifico";
-        padding-top: 5px;
-      }
-    }
+//       p {
+//         font-size: 2rem;
+//         font-family: "Pacifico";
+//         padding-top: 5px;
+//       }
+//     }
 
-    .red {
-      max-height: 109.5px;
-      font-size: 1.25rem;
-      #underlines {
-        text-decoration: none;
-        color: white;
-        font-weight: bold;
-      }
-      > div {
-        .mobile-phone {
-          display: none;
-        }
-        .reg-phone {
-          color: white;
-          font-weight: bold;
-        }
-      }
-    }
-  }
+//     .red {
+//       max-height: 109.5px;
+//       font-size: 1.25rem;
+//       #underlines {
+//         text-decoration: none;
+//         color: white;
+//         font-weight: bold;
+//       }
+//       > div {
+//         .mobile-phone {
+//           display: none;
+//         }
+//         .reg-phone {
+//           color: white;
+//           font-weight: bold;
+//         }
+//       }
+//     }
+//   }
 
-  // Delivery
+//   // Delivery
 
-  .delivery {
-    .icons {
-      width: 60px;
-      padding-top: 13px;
-    }
-    .center {
-      max-height: 67px;
-      pre {
-        font-size: 2rem;
-      }
-    }
-  }
+//   .delivery {
+//     .icons {
+//       width: 60px;
+//       padding-top: 13px;
+//     }
+//     .center {
+//       max-height: 67px;
+//       pre {
+//         font-size: 2rem;
+//       }
+//     }
+//   }
 
-  // Promotions
+//   // Promotions
 
-  .promotions {
-    margin-left: 200px;
-    margin-right: 200px;
-    h3 {
-      font-size: 1.25rem;
-      background-color: darkgreen;
-      text-align: center;
-      color: white;
-    }
+//   .promotions {
+//     margin-left: 200px;
+//     margin-right: 200px;
+//     h3 {
+//       font-size: 1.25rem;
+//       background-color: darkgreen;
+//       text-align: center;
+//       color: white;
+//     }
 
-    p {
-      font-size: 1.25rem;
-      font-weight: bold;
-      text-align: center;
-    }
+//     p {
+//       font-size: 1.25rem;
+//       font-weight: bold;
+//       text-align: center;
+//     }
 
-    img {
-      width: 70px;
-      height: auto;
-    }
-  }
+//     img {
+//       width: 70px;
+//       height: auto;
+//     }
+//   }
 
-  // Footer
+//   // Footer
 
-  footer {
-    border: 5px solid black;
-    pre {
-      font-size: 1.25rem;
-      font-weight: bold;
-    }
-  }
-}
+//   footer {
+//     border: 5px solid black;
+//     pre {
+//       font-size: 1.25rem;
+//       font-weight: bold;
+//     }
+//   }
+// }
 
-// ends ipad settings -----------------------------------------------------------
+// // ends ipad settings -----------------------------------------------------------
 
-// ADAPTING FOR DESKTOP =============================================================
+// // ADAPTING FOR DESKTOP =============================================================
 
-@media only screen and (min-width: 992px) {
-  // Header
+// @media only screen and (min-width: 992px) {
+//   // Header
 
-  .header {
-    .green {
-      .logo-green {
-        max-height: 135px;
-      }
-    }
+//   .header {
+//     .green {
+//       .logo-green {
+//         max-height: 135px;
+//       }
+//     }
 
-    .white {
-      h1 {
-        font-size: 2.5rem;
-        margin-top: 2px;
-      }
-    }
+//     .white {
+//       h1 {
+//         font-size: 2.5rem;
+//         margin-top: 2px;
+//       }
+//     }
 
-    .red {
-      font-size: 2.5rem;
-      i {
-        display: none;
-      }
-      li {
-        display: inline;
-        font-size: 1.5rem;
-        color: white;
-        &:hover {
-          background-color: white;
-          color: red;
-        }
-      }
-    }
-  }
+//     .red {
+//       font-size: 2.5rem;
+//       i {
+//         display: none;
+//       }
+//       li {
+//         display: inline;
+//         font-size: 1.5rem;
+//         color: white;
+//         &:hover {
+//           background-color: white;
+//           color: red;
+//         }
+//       }
+//     }
+//   }
 
-  .delivery {
-    .icons {
-      width: 70px;
-      padding-top: 7px;
-    }
-  }
+//   .delivery {
+//     .icons {
+//       width: 70px;
+//       padding-top: 7px;
+//     }
+//   }
 
-  .promotions {
-    margin-left: 600px;
-    margin-right: 600px;
-  }
-  .promotions {
-    h3 {
-      font-size: 2.5rem;
-      background-color: darkgreen;
-      text-align: center;
-      color: white;
-    }
+//   .promotions {
+//     margin-left: 600px;
+//     margin-right: 600px;
+//   }
+//   .promotions {
+//     h3 {
+//       font-size: 2.5rem;
+//       background-color: darkgreen;
+//       text-align: center;
+//       color: white;
+//     }
 
-    p {
-      font-size: 1.75rem;
-      font-weight: bold;
-      text-align: center;
-    }
-    img {
-      width: 100px;
-      height: auto;
-    }
-  }
+//     p {
+//       font-size: 1.75rem;
+//       font-weight: bold;
+//       text-align: center;
+//     }
+//     img {
+//       width: 100px;
+//       height: auto;
+//     }
+//   }
 
-  footer {
-    border: 5px solid black;
-    pre {
-      font-size: 1.35rem;
-      font-weight: bold;
-    }
-  }
-} //end of adjustin to desktop
+//   footer {
+//     border: 5px solid black;
+//     pre {
+//       font-size: 1.35rem;
+//       font-weight: bold;
+//     }
+//   }
+// } //end of adjustin to desktop

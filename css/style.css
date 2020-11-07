@@ -14,8 +14,8 @@ body {
   display: grid;
   -ms-grid-columns: auto;
       grid-template-columns: auto;
-  -ms-grid-rows: 100px 70px 1fr 60px;
-      grid-template-rows: 100px 70px 1fr 60px;
+  -ms-grid-rows: 100px 70px 80px 1fr 60px;
+      grid-template-rows: 100px 70px 80px 1fr 60px;
   grid-gap: 10px;
   padding: 10px;
   min-height: 100vh;
@@ -44,7 +44,7 @@ body {
 }
 
 .header .green .logo-green {
-  max-height: 90px;
+  max-height: 80px;
   padding-top: 10px;
 }
 
@@ -123,11 +123,11 @@ body {
 }
 
 .delivery .center .eat-in {
-  font-size: 1.25rem;
+  font-size: .75rem;
 }
 
 .delivery .center .blink {
-  font-size: 1.75rem;
+  font-size: 1.25rem;
 }
 
 .delivery .blink {
@@ -156,7 +156,7 @@ body {
 
 .promotions .daily-special {
   display: inline;
-  width: 67%;
+  width: 50%;
   height: auto;
   margin-top: 10px;
   margin-bottom: 3px;
@@ -173,12 +173,12 @@ body {
 
 .promotions .specials div.relative1 {
   position: relative;
-  width: 100%;
-  max-height: 200px;
+  width: 60%;
+  max-height: 100px;
 }
 
 .promotions .specials div.relative1 .wings {
-  font-size: 1.5rem;
+  font-size: .75rem;
   text-align: left;
 }
 
@@ -195,7 +195,7 @@ body {
 
 .promotions .specials img {
   display: inline;
-  width: 50%;
+  width: 35%;
   height: auto;
   margin-bottom: 3px;
   border: 3px solid #cd0101;
@@ -205,14 +205,14 @@ body {
 
 .promotions .specials p,
 .promotions .specials pre {
-  font-size: 2rem;
+  font-size: .75rem;
   font-weight: bold;
   text-align: center;
   color: white;
 }
 
 .promotions .specials .day {
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-decoration: underline;
 }
 
@@ -241,145 +241,5 @@ footer pre {
 footer #underlines {
   text-decoration: none;
   color: white;
-}
-
-@media only screen and (min-width: 321px) {
-  body {
-    background-color: lightgrey;
-    background-image: url("../images/pepperonipizza.jpg");
-    background-size: cover;
-  }
-  .grid-container {
-    grid-gap: 50px;
-    -ms-grid-rows: 120px 80px 1fr 60px;
-        grid-template-rows: 120px 80px 1fr 60px;
-  }
-  .header {
-    border: 5px solid black;
-  }
-  .header .green {
-    max-height: 109.5px;
-  }
-  .header .green .logo-green {
-    max-height: 135px;
-    padding-top: 0px;
-  }
-  .header .white h1 {
-    font-size: 1.75rem;
-    margin-top: 2px;
-    padding-bottom: 0px;
-  }
-  .header .white p {
-    font-size: 2rem;
-    font-family: "Pacifico";
-    padding-top: 5px;
-  }
-  .header .red {
-    max-height: 109.5px;
-    font-size: 1.25rem;
-  }
-  .header .red #underlines {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-  }
-  .header .red > div .mobile-phone {
-    display: none;
-  }
-  .header .red > div .reg-phone {
-    color: white;
-    font-weight: bold;
-  }
-  .delivery .icons {
-    width: 60px;
-    padding-top: 13px;
-  }
-  .delivery .center {
-    max-height: 67px;
-  }
-  .delivery .center pre {
-    font-size: 2rem;
-  }
-  .promotions {
-    margin-left: 200px;
-    margin-right: 200px;
-  }
-  .promotions h3 {
-    font-size: 1.25rem;
-    background-color: darkgreen;
-    text-align: center;
-    color: white;
-  }
-  .promotions p {
-    font-size: 1.25rem;
-    font-weight: bold;
-    text-align: center;
-  }
-  .promotions img {
-    width: 70px;
-    height: auto;
-  }
-  footer {
-    border: 5px solid black;
-  }
-  footer pre {
-    font-size: 1.25rem;
-    font-weight: bold;
-  }
-}
-
-@media only screen and (min-width: 992px) {
-  .header .green .logo-green {
-    max-height: 135px;
-  }
-  .header .white h1 {
-    font-size: 2.5rem;
-    margin-top: 2px;
-  }
-  .header .red {
-    font-size: 2.5rem;
-  }
-  .header .red i {
-    display: none;
-  }
-  .header .red li {
-    display: inline;
-    font-size: 1.5rem;
-    color: white;
-  }
-  .header .red li:hover {
-    background-color: white;
-    color: red;
-  }
-  .delivery .icons {
-    width: 70px;
-    padding-top: 7px;
-  }
-  .promotions {
-    margin-left: 600px;
-    margin-right: 600px;
-  }
-  .promotions h3 {
-    font-size: 2.5rem;
-    background-color: darkgreen;
-    text-align: center;
-    color: white;
-  }
-  .promotions p {
-    font-size: 1.75rem;
-    font-weight: bold;
-    text-align: center;
-  }
-  .promotions img {
-    width: 100px;
-    height: auto;
-  }
-  footer {
-    border: 5px solid black;
-  }
-  footer pre {
-    font-size: 1.35rem;
-    font-weight: bold;
-  }
 }
 /*# sourceMappingURL=style.css.map */
