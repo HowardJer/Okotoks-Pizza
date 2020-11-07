@@ -147,6 +147,11 @@ body {
   }
 }
 
+.mission {
+  border: 7px solid black;
+  background-image: url("../images/woodgrain.jpg");
+}
+
 .promotions {
   border: 7px solid black;
   -webkit-box-shadow: 3px 5px black;

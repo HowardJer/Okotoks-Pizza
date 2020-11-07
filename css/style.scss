@@ -1,4 +1,4 @@
-// set up zero points
+// set up zero points  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 * {
   margin: 0;
   padding: 0;
@@ -131,7 +131,14 @@ body {
   }
 }
 
-// set up promotions element
+//  set up for mission statement  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+.mission {
+  border: 7px solid black;
+  background-image: url("../images/woodgrain.jpg");
+  
+
+}
+// set up promotions element  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 .promotions {
   border: 7px solid black;
